@@ -1,17 +1,17 @@
-font-family {
+/* O seletor "font-family" não é válido e deve ser substituído por um seletor apropriado */
+* {
   font-family: 'Arial, sans-serif';
-    font-size: 16px;
+  font-size: 16px;
 }
 
-body{
-    background-color: #f0f0f0;
-
+body {
+  background-color: #f0f0f0;
 }
 
 main {
- background-color: #f0f0f0;
- width: 500px
- margin 30px auto;
-    padding: 10px
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 143);
+  background-color: #f0f0f0;
+  width: 500px; /* Adicionado o ponto e vírgula (;) */
+  margin: 30px auto; /* Adicionado o ponto e vírgula (;) */
+  padding: 10px; /* Adicionado o ponto e vírgula (;) */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.143); /* Corrigido o valor do alfa para estar entre 0 e 1 */
 }
